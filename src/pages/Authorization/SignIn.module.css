@@ -1,0 +1,45 @@
+.authContainer {
+  display: flex;
+  min-height: 80vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.authLogin {
+  display: flex;
+  flex-direction: column;
+}
+
+.authLabel {
+  text-align: left;
+  padding: 0.3rem 0;
+}
+
+.authInput {
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.signBtn {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.registerBtn {
+  border: none;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.registerBtn a {
+  color: #a2a0a0;
+}

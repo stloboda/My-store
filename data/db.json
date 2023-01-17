@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "card1",
+      "title": "card",
+      "img": "/image/image1.png"
+    },
+
+    {
+      "id": "2",
+      "name": "card2",
+      "title": "card",
+      "img": "/image/gettyimages-492782088.webp"
+    },
+
+    {
+      "id": "3",
+      "name": "card3",
+      "title": "card",
+      "img": "/image/unnamed.webp"
+    },
+
+    {
+      "id": "4",
+      "name": "card4",
+      "title": "card",
+      "img": "https://via.placeholder.com/300"
+    },
+
+    {
+      "id": "5",
+      "name": "card5",
+      "title": "card",
+      "img": "https://via.placeholder.com/300"
+    }
+  ]
+}

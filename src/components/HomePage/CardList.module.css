@@ -1,0 +1,85 @@
+.listCard {
+  margin-top: 10%;
+}
+
+.titleCard {
+  text-align: center;
+}
+
+.mainText {
+  font-size: 70px;
+}
+
+.secondText {
+  line-height: 2.3;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.card {
+  width: 300px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: -1px 7px 13px 7px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: -1px 7px 13px 7px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 7px 13px 7px rgba(0, 0, 0, 0.26);
+  transition: 0.3s;
+}
+
+.header {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.cardImg {
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.body {
+  height: 100px;
+  padding: 15px;
+  text-align: center;
+}
+
+.nameCard {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.descCard {
+  font-size: 16px;
+  width: 250px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.cardBtn {
+  width: 180px;
+  border: none;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 12px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}

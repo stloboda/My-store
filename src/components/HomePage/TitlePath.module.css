@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 0 8%;
+}
+
+.title {
+  flex-basis: 40%;
+}
+
+.mainText {
+  font-size: 70px;
+}
+
+.secondText {
+  line-height: 2.3;
+}
+
+.mainBtn {
+  width: 180px;
+  border: none;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 12px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.mainBtn:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.wallpaper {
+  flex-basis: 60%;
+}
+
+.imgMain {
+  width: 80%;
+  border-radius: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(171, 160, 160, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(171, 160, 160, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(171, 160, 160, 0.75);
+}
